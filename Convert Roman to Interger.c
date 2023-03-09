@@ -1,46 +1,54 @@
-#include <stdio.h>
-#include <stdlib.h>
-static int roman_to_integer(char c)
-{
-    switch(c) {
-    case 'I':  
-        return 1;  
-    case 'V':  
-        return 5;  
-    case 'X':  
-        return 10;  
-    case 'L':  
-        return 50;  
-    case 'C':  
-        return 100;  
-    case 'D':  
-        return 500;  
-    case 'M':  
-        return 1000;  
-    default:
-        return 0;
-    }
-}
+#include<stdio.h>
+#include<string.h>
 
-int roman_to_int (char *s)
-{
-    int i, int_num = roman_to_integer(s[0]);
+int digit(char);
 
-    for (i = 1; s[i] != '\0'; i++) {
-        int prev_num = roman_to_integer(s[i - 1]);
-        int cur_num = roman_to_integer(s[i]);
-        if (prev_num < cur_num) {
-            int_num = int_num - prev_num + (cur_num - prev_num);
-        } else {
-            int_num += cur_num;
-        }
+int main(){
+
+    char roman_Number[1000];
+    int i=0;
+    long int number =0;
+
+    printf("Enter the Roman number: ");
+    scanf("%s",roman_Number);
+
+    while(roman_Number[i]){
+
+         if(digit(roman_Number[i]) < 0){
+             printf("Invalid roman digit : %c",roman_Number[i]);
+             return 0;
+         }
+
+         if((strlen(roman_Number) -i) > 2){
+             if(digit(roman_Number[i]) < digit(roman_Number[i+2])){
+                 printf("Invalid roman number");
+                 return 0;
+             }
+         }
+
+         if(digit(roman_Number[i]) >= digit(roman_Number[i+1]))
+             number = number + digit(roman_Number[i]);
+         else{
+             number = number + (digit(roman_Number[i+1]) - digit(roman_Number[i]));
+             i++;
+         }
+         i++;
     }
-    return int_num;
-}
-int main(void)
- {
-  char *str1 = "XIV";
-    printf("Original Roman number: %s", str1);
-    printf("\nRoman to integer: %d", roman_to_int(str1));
+    printf("Its decimal value is : %ld",number);
     return 0;
+}
+
+int digit(char c){
+
+    int value=0;
+
+    switch(c){
+         case 'I': value = 1; break;
+         case 'V': value = 5; break;
+         case 'X': value = 10; break;
+         default: value = -1;
+         
+    }
+
+    return value;
 }
