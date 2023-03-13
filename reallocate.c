@@ -16,6 +16,6 @@ int main(){
 	scanf("%d",&y);
 	if (y==1){
 		free(p);
-		printf("Freed Memory %zu",sizeof(*p));
+		printf("Freed Memory %zu bytes",sizeof(*p));
 	}
 }
