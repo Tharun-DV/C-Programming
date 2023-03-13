@@ -7,6 +7,6 @@ int main(){
 	scanf("%d",&num);
 	printf("The Requirement memory is %d\n",num*sizeof(int));
 	printf("Enter the Number of Float:");
-	scanf("%f",&flot);
-	printf("The Required Memory is %d\n",sizeof(flot));
+	scanf("%d",num);
+	printf("The Required Memory is %d\n",num*sizeof(flot));
 }
