@@ -1,4 +1,14 @@
 # C/C++ Programming
 
-## 1.Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
-[Solution](divide.c)
+## 1.Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator. [Solution](divide.c)
+## 2.Palindrome number - Given an integer x, return true if x is a palindrome, and false otherwise. [Solution](palindrome.c)
+## 3.Convert Roman letters to integers for I to X (1 to 10). [solution](Convert%20Roman%20to%20Interger.c)
+## 4.Display auto-biography numbers in the given range a to b. (a and b included). [Solution](AutoBiography%20Number.c)
+## 5.Valid paranthesis - Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is   valid if:a Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open    bracket of the same type. [Solution](Balanced%20or%20Unbalanced.c)
+## 6.Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed. USe function - int removeElement(int[],int). [Solution](removeElement.c)
+## 7.Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order. Use function - int searchInsert (int[], int). [Solution](searchInsert.c)
+## 8.Given two binary strings a and b, return their sum as a binary string. Use function - char* addBinary(char*, char*). [Solution](addBinary.c)
+## 9.A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.Given a string s, return true if it is a palindrome, or false otherwise. USe function - bool isPalindrome(char*). [Solution]()
+## 10.You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters. Return the smallest character in letters that is lexicographically greater than target. If such a character does not exist, return the first character in letters. Use function - char nextGreatestLetter(char**, char). [Solution]()
+## 11.Given two strings [character pointer] s and t, return true if t is an anagram of s, and false otherwise. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. Use character pointer. [Solution](isAnagram.c)
+## 12.You are given an integer array nums. In one move, you can pick an index i where 0 <= i < nums. length and increment nums[i] by 1. Return the minimum number of moves to make every value in nums unique using pointers. [Solution](miniIncrement.c)
