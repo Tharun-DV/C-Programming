@@ -4,7 +4,7 @@
 int main(){
 	int num;
 	int *p;
-	p = (int*)malloc(sizeof(int); 
+	p = (int*)malloc(sizeof(int)); 
 	printf("Enter No of Memory bytes to allocate:");
 	scanf("%d",&num);
 	printf("size before : %zu\n" ,sizeof(*p));
