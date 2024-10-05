@@ -1,18 +1,18 @@
-# C/C++ Programming
-
-## 1.Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator. [Solution](divide.c)
-## 2.Palindrome number - Given an integer x, return true if x is a palindrome, and false otherwise. [Solution](palindrome.c)
-## 3.Convert Roman letters to integers for I to X (1 to 10). [solution](Convert%20Roman%20to%20Interger.c)
-## 4.Display auto-biography numbers in the given range a to b. (a and b included). [Solution](AutoBiography%20Number.c)
-## 5.Valid paranthesis - Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is   valid if:a Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open    bracket of the same type. [Solution](Balanced%20or%20Unbalanced.c)
-## 6.Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed. USe function - int removeElement(int[],int). [Solution](removeElement.c)
-## 7.Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order. Use function - int searchInsert (int[], int). [Solution](searchInsert.c)
-## 8.Given two binary strings a and b, return their sum as a binary string. Use function - char* addBinary(char*, char*). [Solution](addBinary.c)
-## 9.A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.Given a string s, return true if it is a palindrome, or false otherwise. USe function - bool isPalindrome(char*). [Solution]()
-## 10.You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters. Return the smallest character in letters that is lexicographically greater than target. If such a character does not exist, return the first character in letters. Use function - char nextGreatestLetter(char**, char). [Solution]()
-## 11.Given two strings [character pointer] s and t, return true if t is an anagram of s, and false otherwise. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. Use character pointer. [Solution](isAnagram.c)
-## 12.You are given an integer array nums. In one move, you can pick an index i where 0 <= i < nums. length and increment nums[i] by 1. Return the minimum number of moves to make every value in nums unique using pointers. [Solution](miniIncrement.c)
-## 13.Given a palindromic string of lowercase English letters palindrome, replace exactly one character with any lowercase English letter so that the resulting string is not a palindrome and that it is the lexicographically smallest one possible. [Solution](Notpalindrome.c)
-## 14.There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings using pointers. You are giving candies to these children subjected to the following requirements: Each child must have at least one candy. Children with a higher rating get more candies than their neighbours. Return the minimum number of candies you need to have to distribute the candies to the children. [Solution]()
-## 15.Sort the set of n numbers using pointers. [Solution](Sorting.c)
-## 16.Write a short C program that declares and initializes (to any value you like) a double, an int, and a char. Next declare and initialize a pointer to each of the three variables. Your program should then print the address of, and value stored in, and the memory size (in bytes) of each of the six variables. Use the “0x%x” formatting specifier to print addresses in hexadecimal. You should see addresses that look something like this: "0xbfe55918". The initial characters "0x" tell you that hexadecimal notation is being used; the remainder of the digits give the address itself. Use “%f” to print a floating value. Use the sizeof operator to determine the memory size allocated for each variable. [Solution](pointers-id.c)
+| # | Problem Description | Solution |
+| --- | --- | --- |
+| 1 | Divide two integers without using multiplication, division, and mod operator | [divide.c](divide.c) |
+| 2 | Palindrome number - Given an integer x, return true if x is a palindrome, and false otherwise | [palindrome.c](palindrome.c) |
+| 3 | Convert Roman letters to integers for I to X (1 to 10) | [Convert Roman to Interger.c](Convert%20Roman%20to%20Interger.c) |
+| 4 | Display auto-biography numbers in the given range a to b | [AutoBiography Number.c](AutoBiography%20Number.c) |
+| 5 | Valid parenthesis - Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid | [Balanced or Unbalanced.c](Balanced%20or%20Unbalanced.c) |
+| 6 | Remove all occurrences of val in nums in-place | [removeElement.c](removeElement.c) |
+| 7 | Given a sorted array of distinct integers and a target value, return the index if the target is found | [searchInsert.c](searchInsert.c) |
+| 8 | Given two binary strings a and b, return their sum as a binary string | [addBinary.c](addBinary.c) |
+| 9 | A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward |  |
+| 10 | Return the smallest character in letters that is lexicographically greater than target |  |
+| 11 | Given two strings s and t, return true if t is an anagram of s, and false otherwise | [isAnagram.c](isAnagram.c) |
+| 12 | Return the minimum number of moves to make every value in nums unique | [miniIncrement.c](miniIncrement.c) |
+| 13 | Replace exactly one character with any lowercase English letter so that the resulting string is not a palindrome and that it is the lexicographically smallest one possible | [Notpalindrome.c](Notpalindrome.c) |
+| 14 | Return the minimum number of candies you need to have to distribute the candies to the children |  |
+| 15 | Sort the set of n numbers using pointers | [Sorting.c](Sorting.c) |
+| 16 | Print the address of, and value stored in, and the memory size (in bytes) of each of the six variables | [pointers-id.c](pointers-id.c) |
